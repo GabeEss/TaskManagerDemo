@@ -1,0 +1,45 @@
+# WordPress core files (no need to track these, they can be downloaded fresh)
+wp-admin/
+wp-includes/
+# /wp-content/index.php
+/wp-content/languages
+# /wp-content/plugins/index.php
+/wp-content/themes/index.php
+wp-load.php
+wp-config.php
+wp-config-sample.php
+wp-settings.php
+wp-activate.php
+wp-signup.php
+wp-comments-post.php
+wp-cron.php
+wp-blog-header.php
+wp-links-opml.php
+wp-mail.php
+wp-trackback.php
+license.txt
+readme.html
+local-xdebuginfo.php
+xmlrpc.php
+
+# Example themes
+/wp-content/themes/twenty*/
+
+# Example plugin
+/wp-content/plugins/hello.php
+
+# upload, cache, and backup folders
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# log files
+*.log
